@@ -17,7 +17,7 @@ on:
     - cron: 0 20 * * *
   push:
      branches:
-       - master
+       - roger
   # release:
   #   types: [published]
 
@@ -32,7 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
         with:
-          ref: master
+          ref: roger
 
       - name: Space cleanup
         env:
