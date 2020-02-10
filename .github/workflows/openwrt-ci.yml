@@ -163,7 +163,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-brook-server=y
           CONFIG_PACKAGE_luci-app-passwall=y
           CONFIG_PACKAGE_luci-app-filebrowser=y
-          CONFIG_PACKAGE_luci-app-ipsec-vpnserver-manyusers=y
           CONFIG_PACKAGE_luci-app-fileassistant=y            
           EOF
           # LuCI主题:
