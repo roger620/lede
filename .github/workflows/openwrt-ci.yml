@@ -13,8 +13,8 @@ name: OpenWrt-CI
 
 on: 
 
-  schedule:
-    - cron: 0 40 * * *
+  #schedule:
+    #- cron: 0 20 * * *
   push:
      branches:
        - roger
